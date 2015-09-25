@@ -1,14 +1,26 @@
-(function(){
-	var app = angular.module('work',['ngMaterial']);
+/*global angular*/
 
-	app.controller('WorkController',function(){
+// (function(){
+// 	var app = angular.module('work',['ngMaterial']);
+
+// 	app.controller('WorkController',function(){
 
 		
-	});
+// 	});
   	
- })();
+// })();
 
- angular
+// angular
+//   .module('inputIconDemo', ['ngMaterial', 'ngMessages'])
+//   .controller('DemoCtrl', function($scope) {
+//     $scope.user = {
+//       name: 'John Doe',
+//       email: '',
+//       phone: '',
+//       address: 'Mountain View, CA'
+//     };
+//   });
+angular
   .module('inputIconDemo', ['ngMaterial', 'ngMessages'])
   .controller('DemoCtrl', function($scope) {
     $scope.user = {
