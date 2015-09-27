@@ -29,4 +29,11 @@ angular
       phone: '',
       address: 'Mountain View, CA'
     };
+
   });
+  inputIconDemo.controller('SelectOptGroupController',function($scope) {
+  	$scope.cars_marks=["Audi","BMW","Skoda","Volkswagen","KIA"];
+
+
+  });
+
